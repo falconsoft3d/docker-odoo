@@ -11,6 +11,16 @@ sudo apt install docker.io
 docker ps
 ```
 
+# Parar Dockers
+```
+docker stop
+```
+
+# Borrar Dockers
+```
+docker rm
+```
+
 
 # Start a PostgreSQL server
 ```
