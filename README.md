@@ -3,10 +3,9 @@
 sudo su
 sudo apt-get update
 sudo apt-get remove docker docker-engine docker.io
-sudo apt install docker.io
+sudo apt install docker.io -y
 sudo systemctl start docker
 sudo systemctl enable docker
-docker --version
 
 docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name db postgres:10
 docker pull odoo
@@ -36,7 +35,10 @@ docker stop
 ```
 docker rm
 ```
-
+# Version:
+```
+docker --version
+```
 
 # Start a PostgreSQL server
 ```
