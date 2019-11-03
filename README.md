@@ -1,3 +1,10 @@
+# Instalar Odoo
+```
+sudo apt install docker.io
+docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name db postgres:10
+docker pull odoo
+```
+
 # Comandos de docker
 
 
