@@ -1,4 +1,12 @@
 # Comandos de docker
+
+
+# Instalar Dockers
+```
+sudo apt install docker.io
+```
+
+# Listar Dockers
 ```
 docker ps
 ```
